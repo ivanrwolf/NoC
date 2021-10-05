@@ -2,7 +2,9 @@
 A node classification tool for gene regulatory networks (GRNs)
 
 **Requirements:**
-In order to provide a easy installation please use anaconda (https://docs.anaconda.com/anaconda/install/index.html) then run:
+In order to provide a easy installation please use anaconda (https://docs.anaconda.com/anaconda/install/index.html).
+
+With anaconda installed you can install environment with:
 >conda env create -f conda_NoC_environment.yml
 
 Then:
