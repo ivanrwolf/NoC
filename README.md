@@ -2,7 +2,8 @@
 A node classification tool for gene regulatory networks (GRNs).
 
 **Requirements:**
- * Linux, or unix like OS with support to conda package mananger
+ * Linux, or unix like OS with support to conda package mananger and bash shell
+ * Weka 3.8.5
  * Python 3
  * Pandas
  * Numpy
@@ -17,6 +18,10 @@ Download NoC files with:
 Change directory to the NoC folder:
  >cd ./NoC
 
+Download Weka version 3.8.5 (https://waikato.github.io/weka-wiki/downloading_weka/) and paste it in NoC folder.
+Alternatively you can edit NoC.sh and add the path to the "weka.jar" file manually.
+
+
 In order to provide a easy setup please use conda or miniconda.
 Install instruction for conda https://docs.anaconda.com/anaconda/install/index.html.
 
@@ -29,16 +34,16 @@ Then, activate conda enviropnment:
 **Usage:**
 
 With conda environment activated you can simply run:
- >python grn.py [input]
+ >bash NoC.sh [input]
 
 **Positional arguments:**
  * input
  >Input file, currently only supports "ncol" format.
 
 **Example:**
- >python grn.py 01_input_Scerevisiae_net.ncol
+ >bash NoC.sh input_Scerevisiae_net.ncol
 
-In order to exit from environment:
+In order to exit from conda environment:
  >conda deactivate
 
 If you use NoC please cite: [placeholder].
