@@ -46,4 +46,4 @@ With conda environment activated you can simply run:
 In order to exit from conda environment:
  >conda deactivate
 
-If you use NoC please cite: [placeholder].
+If you use NoC please cite: Wolf, I.R., Simões, R.P. & Valente, G.T. Three topological features of regulatory networks control life-essential and specialized subsystems. Sci Rep 11, 24209 (2021). https://doi.org/10.1038/s41598-021-03625-w.
